@@ -1,0 +1,77 @@
+/**
+ * @Main scss for (Template/Project Name)
+ * @project     - Project Name
+ * @author      - 
+ * @created_by  - kawsar bin siraj
+ * @created_at  - 
+ * @modified_by -
+ */
+
+
+/* fonts import */
+
+/* fonts import -END */
+
+
+
+
+
+
+/* reset, root */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ddd;
+}
+
+:root {
+    --mainColor: #F6E3BA;
+}
+
+/* reset, root - END */
+
+
+
+
+
+
+/* helper , base classes */
+
+/* helper , base classes  - END*/
+
+
+.blog-wrapper {
+
+
+    .owl-nav {
+        position: absolute;
+        top: -40px;
+        right: 20px;
+
+        button {
+            border: none;
+            outline: none;
+
+        }
+
+        span {
+            &::before {
+                font-size: 24px;
+                background: #4caf50 !important;
+                padding: 8px;
+                border-radius: 50%;
+                margin-left: 10px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
